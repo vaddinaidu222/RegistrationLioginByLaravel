@@ -11,7 +11,7 @@ class CommentController extends Controller
 {
     //
 
-    // this is to store the comments
+    // this is to store the comment
     public function store_comment(Request $request){
         $postId = $request->post_id;
         $user = auth::user();
